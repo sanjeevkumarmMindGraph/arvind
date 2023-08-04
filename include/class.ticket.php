@@ -202,12 +202,14 @@ implements RestrictedAccess, Threadable, Searchable {
             );
 
     // Ticket Types
+   
+    // aravind #8
     static protected $alltickettypes =  array(
         'SR' =>
         /* @trans */ 'SR',
         'CR' =>
         /* @trans */ 'CR',
-        /*changed by aravind changed 8 */
+    /*changed by aravind changed 8 */
 
         'Web' =>
         /* @trans */ 'Web',

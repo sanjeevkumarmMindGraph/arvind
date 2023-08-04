@@ -1263,9 +1263,12 @@ class OsticketConfig extends Config {
     function updateSystemSettings($vars, &$errors) {
 
         $f=array();
+        
         //changed by aravind change no 11 and 12 //
         $f['helpdesk_url']=array('type'=>'string',   'required'=>1, 'error'=>__(' is required'));
         $f['helpdesk_title']=array('type'=>'string',   'required'=>1, 'error'=>__('Helpdesk title is required'));
+        //aravind #11 #12//
+
         $f['default_dept_id']=array('type'=>'int',   'required'=>1, 'error'=>__('Default Department is required'));
         $f['autolock_minutes']=array('type'=>'int',   'required'=>1, 'error'=>__('Enter lock time in minutes'));
         $f['allow_iframes']=array('type'=>'cs-url',   'required'=>0, 'error'=>__('Enter comma separated list of urls'));

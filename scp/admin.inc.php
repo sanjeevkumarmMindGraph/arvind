@@ -66,6 +66,7 @@ $ost->setWarning($sysnotice);
 $nav = new AdminNav($thisstaff);
 
 //Page title.
+//aravind 20//
 $ost->setPageTitle(__('MINDGRAPH :: Admin Control Panel'));
 //aravind changed for osticket to mindgraph change no 20//
 ?>

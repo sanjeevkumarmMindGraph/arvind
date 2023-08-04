@@ -24,7 +24,8 @@ else
     <div><strong><?php echo Format::htmlchars($errors['login']); ?></strong></div>
     <div>
         <label for="email"><?php echo __('Email Address'); ?>:
-        <input id="email" placeholder="<?php echo __('e.g. john.123@mindgraph.com'); ?>" type="text"
+        <!-- /* aravind  40*/ -->
+        <input id="email" placeholder="<?php echo __('e.g. support@mindgraph.com'); ?>" type="text"
             name="lemail" size="30" value="<?php echo $email; ?>" class="nowarn"></label>
             /*change by aravind changed to our e mail change no 40*/
     </div>
