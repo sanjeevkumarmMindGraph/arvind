@@ -52,6 +52,7 @@ $ost->addExtraHeader('<meta name="tip-namespace" content="emails.diagnostic" />'
 require(STAFFINC_DIR.'header.inc.php');
 
 $info=array();
+//change no 42//
 $info['subj']='Mind Graph test email';
 //changed by aravind change no 42//
 $info=Format::htmlchars(($errors && $_POST)?$_POST:$info, true);

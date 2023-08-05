@@ -103,6 +103,8 @@ if (osTicket::is_ie())
     <title><?php echo ($ost && ($title=$ost->getPageTitle()))?$title:'MINDGRAPH :: '.__('mindgraph'); ?></title><?php
     //changed by aravind change no 43//
 } # endif X_PJAX ?>
+<!-- aravind on 2 Aug -->
+
     <ul id="nav">
 <?php include STAFFINC_DIR . "templates/navigation.tmpl.php"; ?>
     </ul>

@@ -38,6 +38,7 @@ if ($cfg && $cfg->isKnowledgebaseEnabled()) { ?>
     if($cfg && ($page = $cfg->getLandingPage()))
         echo $page->getBodyWithImages();
     else
+        //aravind 2,3//
         echo  '<h1>'.__('Welcome to the Mind Graph Support Center').'</h1>';
         //changed by aravind changed no 2,3//
     ?>
